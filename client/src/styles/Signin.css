@@ -84,7 +84,7 @@ p {
 /* Input Field Styles */
 input {
   width: 100%;
-  padding: 12px;
+  padding: 10px;
   margin: 10px 0;
   border: none;
   border-bottom: 2px solid #ccc;
@@ -153,7 +153,7 @@ input:focus {
   padding: 2px;
   border: 3px solid #6a1b9a;
   border-radius: 2vh;
-  margin: 10px 0;
+  margin: 12px 0;
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -194,7 +194,7 @@ input:focus {
   }
 
   .signin-card {
-    padding: 20px;
+    padding: 15px;
     width: 100%;
   }
 
