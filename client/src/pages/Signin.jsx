@@ -26,7 +26,7 @@ const Signin = () => {
       try {
         // Send POST request to backend for signin
         const response = await axios.post(
-          "http://localhost:3000/api/v1/signin",  
+          "https://logix-backend.vercel.app/api/v1/signin",  
           formData
         );
        
