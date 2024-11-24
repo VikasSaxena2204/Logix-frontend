@@ -25,7 +25,7 @@ const Signup = () => {
     if (firstname && lastname && email && phone && password && confirmPassword) {
       if (password === confirmPassword) {
         try {
-          await axios.post("http://localhost:3000/api/v1/signup", {
+          await axios.post("https://logix-backend.vercel.app/api/v1/signup", {
             firstname,
             lastname,
             email,
