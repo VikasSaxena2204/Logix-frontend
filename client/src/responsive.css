@@ -1,0 +1,68 @@
+/* Hide Left Sections for Screens Below 900px */
+@media (max-width: 900px) {
+  .signin-left,
+  .signup-left {
+    display: none;
+  }
+}
+
+/* Adjust Font Sizes and Button Widths for Smaller Screens Below 600px */
+@media (max-width: 600px) {
+  .dashboard-main,
+  .landing-main {
+    font-size: 20px;
+  }
+
+  .signout-button,
+  .landing-signup-button,
+  .landing-signin-button {
+    width: 150px;
+  }
+
+  .dashboard-main p {
+    font-size: 15px;
+  }
+}
+
+/* Further Adjustments for Very Small Screens Below 400px */
+@media (max-width: 400px) {
+  .dashboard-main,
+  .landing-main {
+    font-size: 15px;
+  }
+
+  .signout-button {
+    padding: 10px;
+  }
+
+  .landing-signup-button,
+  .landing-signin-button {
+    padding: 8px;
+    width: 250px;
+  }
+}
+
+/* Mobile-specific Adjustments for Screens Below 370px */
+@media (max-width: 370px) {
+  .signin-center-options,
+  .signup-center-options {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+
+  .signin-center-buttons,
+  .signup-center-buttons {
+    margin-top: 20px;
+  }
+
+  .signin-center h2,
+  .signup-center h2 {
+    font-size: 30px;
+  }
+
+  .signin-center p,
+  .signup-center p {
+    font-size: 15px;
+  }
+}

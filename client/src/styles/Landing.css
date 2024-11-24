@@ -1,0 +1,84 @@
+/* General Landing Page Styles */
+.landing-main {
+  font-size: 30px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f4f9;
+}
+
+.landing-main h1 {
+  color: #4a0072; /* Dark purple */
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.landing-main p {
+  color: #333;
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+/* Buttons Container */
+.landing-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Button Styles */
+.landing-signin-button,
+.landing-signup-button {
+  background: rgb(76, 46, 119);
+  color: #f8f8f8;
+  border: 3px solid black;
+  border-radius: 30px;
+  width: auto;
+  padding: 1rem 3rem;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  max-width: 600px;
+}
+
+.landing-signin-button:hover,
+.landing-signup-button:hover {
+  background-color: rgb(42, 2, 99);
+  color: #f8f8f8;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+  .landing-main {
+    padding: 20px;
+    font-size: 1.2em;
+  }
+
+  .landing-main h1 {
+    font-size: 1.5em;
+  }
+
+  .landing-main p {
+    font-size: 1em;
+  }
+
+  .landing-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .landing-signin-button,
+  .landing-signup-button {
+    width: 100%;
+    padding: 20px;
+  }
+}

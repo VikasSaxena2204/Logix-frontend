@@ -1,0 +1,49 @@
+/* Sign-Out Page Styling */
+.signout-main {
+  font-size: 30px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f4f9;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.signout-main h1 {
+  font-size: 36px;
+  color: #4a0072; 
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.signout-main p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.signout-main p span {
+  font-size: 22px;
+  font-weight: bold;
+  color: #6a1b9a; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signout-main {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .signout-main h1 {
+    font-size: 28px;
+  }
+
+  .signout-main p {
+    font-size: 16px;
+  }
+}

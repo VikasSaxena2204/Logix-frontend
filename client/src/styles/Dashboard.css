@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: linear-gradient(to bottom, #ffffff, #f8f8f8);
+  color: #333; 
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #301934;
+  color: #fffefe;
+  padding: 15px 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.signout-button {
+  background-color: #ffffff;
+  color: #301934;
+  border: 1px solid #301934;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.signout-button:hover {
+  background-color: rgb(255, 3, 3);
+  color: #ffffff;
+  border-color: rgb(255, 3, 3);
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 7vh;
+  margin-top: 20px;
+}
+
+.user-card {
+  background: linear-gradient(to bottom, #ffffff, #f8f8f8);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+  max-width: 600px;
+  width: 100%; 
+}
+
+.user-card h1 {
+  margin: 0 0 10px;
+  font-size: 2.2rem;
+  color: #301934; 
+}
+
+.user-card p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: rgb(51, 51, 51);
+}
+
+.user-card span.text {
+  color: #301934;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #301934;
+  color: #fffdfd;
+  margin-top: auto;
+}
+
+.footer a {
+  color: rgb(1, 192, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: rgb(255, 30, 0);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ffffff; 
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .navbar-title {
+    font-size: 1.4rem; 
+  }
+
+  .user-card {
+    padding: 5vh; 
+    max-width: 100%;
+  }
+
+  .user-card h1 {
+    font-size: 1.8rem; 
+  }
+
+  .user-card p {
+    font-size: 1rem; 
+  }
+}
