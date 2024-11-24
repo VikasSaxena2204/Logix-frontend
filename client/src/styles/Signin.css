@@ -50,7 +50,7 @@ body {
 
 .signin-card {
   flex: 0 0 450px;
-  padding: 30px;
+  padding: 20px;
   background-color: #fff;
   box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
   border: 1px solid #ddd;
@@ -66,7 +66,7 @@ body {
 
 h2 {
   color: #3a0066; 
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -78,7 +78,7 @@ h2 {
 p {
   color: #777;
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* Input Field Styles */
@@ -127,7 +127,7 @@ input:focus {
 /* Button Styling */
 .signin-center-button button {
   width: 100%;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #6a1b9a;
   border-radius: 2vh;
   margin: 10px 0;
