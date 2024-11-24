@@ -5,8 +5,8 @@ import { toast } from "react-toastify";
 import axios from "axios";
 
 const Dashboard = () => {
-  const [token] = useState(JSON.parse(localStorage.getItem("auth")) || ""); // Token from localStorage
-  const [userData, setUserData] = useState({ firstname: "", lastname: "", email: "" }); // User data state
+  const [token] = useState(JSON.parse(localStorage.getItem("auth")) || ""); 
+  const [userData, setUserData] = useState({ firstname: "", lastname: "", email: "" }); 
   const navigate = useNavigate();
 
   // Fetch user data from the backend
@@ -14,8 +14,8 @@ const Dashboard = () => {
     if (!token) return; 
 
     try {
-      const response = await axios.get("http://localhost:3000/api/v1/user", {
-        headers: { Authorization: `Bearer ${token}` }, // Send Authorization header
+      const response = await axios.get("https://logix-backend.vercel.app/api/v1/user", {
+        headers: { Authorization: `Bearer ${token}` }, 
       });
 
       setUserData(response.data);
