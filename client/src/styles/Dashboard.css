@@ -105,9 +105,8 @@ body {
   font-weight: bold;
 }
 
-/* Signup Button */
-.signup-button {
-  width: auto;
+/* Signout Button */
+.signout-button {
   padding: 8px 16px;
   font-size: 1rem;
   border-radius: 5px;
@@ -116,16 +115,17 @@ body {
   background-color: #fff;
   color: #301934;
   border: 2px solid #301934;
+  
 }
 
-.signup-button:hover {
+.signout-button:hover {
   background-color: #301934;
   color: #fff;
   transform: translateY(-3px);
 }
 
 @media (max-width: 768px) {
-  .signup-button {
+  .signout-button {
     width: 100%;
     text-align: center;
     padding: 10px;
