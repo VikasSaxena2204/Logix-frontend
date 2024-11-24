@@ -82,17 +82,19 @@ p {
 
 /* Input Field Styles */
 input {
-  width: 100%;
+  width: calc(100% - 20px);
   padding: 10px;
-  margin: 10px 0;
-  border: none;
-  border-bottom: 2px solid #ccc;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   font-size: 14px;
   outline: none;
+  box-sizing: border-box;
 }
 
 input:focus {
-  border-bottom: 2px solid #6a1b9a;
+  border-color: #6a1b9a;
+  box-shadow: 0 0 5px rgba(106, 27, 154, 0.5);
 }
 
 /* Password Input Styling */
@@ -101,12 +103,12 @@ input:focus {
 }
 
 .pass-input-div input {
-  padding-right: 30px;
+  padding-right: 40px;
 }
 
 .pass-input-div svg {
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -146,10 +148,29 @@ button {
   transform: translateY(-3px);
 }
 
+/* Sign-Up Button */
+.signup-center-button {
+  width: 100%;
+  padding: 2px;
+  border: 3px solid #6a1b9a;
+  border-radius: 2vh;
+  margin: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .signup-btn {
   background-color: #fff;
+  padding: 8px;
   color: #6a1b9a;
-  border: 2px solid #6a1b9a;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
 }
 
 .signup-btn:hover {
@@ -177,6 +198,11 @@ button {
     width: 100%;
     max-width: 100%;
     padding: 15px;
+  }
+
+  input {
+    width: calc(100% - 10px);
+    margin: 5px;
   }
 
   button {
