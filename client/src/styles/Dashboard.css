@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  space-between: 50px;
 }
 
 /* Navbar */
@@ -35,8 +36,8 @@ body {
   background-color: #ffffff;
   color: #301934;
   border: 1px solid #301934;
-  padding: 10px;
-  margin: 5px;
+/*   padding: 10px;
+  margin: 5px; */
   font-size: 1rem;
   cursor: pointer;
   border-radius: 5px;
@@ -109,7 +110,6 @@ body {
   background-color: #301934;
   color: #fffdfd;
   margin-top: auto;
-  margin-bottom: 2px;
 }
 
 .footer a {
