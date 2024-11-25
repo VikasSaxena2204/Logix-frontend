@@ -23,6 +23,7 @@ body {
   color: #fffefe;
   padding: 12px 16px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   width: 100%;
 }
 
 .navbar-title {
@@ -64,7 +65,7 @@ body {
 
   .signout-button {
     flex-shrink: 0;
-    padding: 10px;
+    padding: 8px;
     width: 30%;
   }
 }
@@ -112,6 +113,7 @@ body {
   background-color: #301934;
   color: #fffdfd;
   margin-top: auto;
+  width: 100%;
 }
 
 .footer a {
@@ -125,7 +127,6 @@ body {
 }
 
 .footer p {
-  margin: 0;
   font-size: 0.9rem;
   color: #ffffff;
 }
